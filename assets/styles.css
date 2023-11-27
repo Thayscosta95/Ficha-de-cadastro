@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satisfy', cursive;
+}
+
+.pagina-princial {
+
+    background-color: #EC5FA4;
+
+}
+
+div h1 {
+    color: #3B1935;
+    font-size: 80px;
+    margin-top: 250px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    position: absolute;
+
+}
+
+.foto-princial {
+    width: 450px;
+    height: 450px;
+    border-radius: 350px;
+    background-position: right;
+    margin-bottom: 40px;
+    margin-left: 740px;
+    margin-top: -300px;
+    
+    
+}
+
+
+.menu-pages {
+    background-color: #3B1935;
+    padding-left: 30px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 30px;
+    word-spacing: 20px;
+   
+
+}
+
+div a {
+    color: #EC5FA4;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.pagina-2 {
+    display: flex;
+    align-items: center;
+    padding: 60px 10%;
+    background: #3B1935;
+}
+
+.pagina-2 img {
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    margin-right: 33px;
+}
+
+.pagina-2 h2 {
+    color: #EC5FA4;
+    font-size: 75px;
+}
+
+.pagina-2 div p {
+    color: #EC5FA4;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+
+.galeria {
+    background-color: #EC5FA4;
+}
+
+div img {
+
+    margin-top: 60px;
+    margin-bottom: 50px;
+    height: 360px;
+    width: 303px;
+    border-radius: 50px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+
+
+.titulo-galeria {
+    color: #3B1935;
+    font-size: 70px;
+    margin-left: 20px;
+    padding-top: 20px;
+
+}
+
+
+footer {
+    background-color: #3B1935;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+footer h5 {
+    color: #EC5FA4;
+    font-size: 35px;
+}
+
+
+footer p {
+    color: #EC5FA4;
+    font-size: 17px;
+    margin-top: 8px;
+    margin-bottom: 30pxs;
+}
+
+.contato-1 {
+    display: flex;
+    gap: 20px;
+}
+
+
+.contato-1 {
+    height: 80px;
+    border-radius: 50%;
+}
+
+.contato-2 {
+    display: flex;
+    gap: 20px;
+}
+
+
+.contato-2 {
+    height: 80px;
+    border-radius: 50%;
+}
+
+.social a {
+    background: #3B1935;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 8px;
+
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.button-principal{
+    margin-top: 400px;
+    background-color: #3B1935;
+    color: #EC5FA4;
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+
+.modal {
+    display: none;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    color:#EC5FA4;
+    border-radius: 20px;
+   
+    
+   
+}
+
+.button-agendar{
+    background-color: #EC5FA4;
+    color: #3B1935;    
+    margin-top: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.modal-content {
+    background-color: #3B1935;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    border-radius: 40px;
+    font-size: 18px;
+    
+    
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #EC5FA4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+div label{
+    margin-bottom: 5px;
+    margin-top: 5px;
+   
+}
+
+
+
+

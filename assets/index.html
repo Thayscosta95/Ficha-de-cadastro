@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <title>Thays Lash Designer</title>
+</head>
+
+<body>
+    <section class="pagina-princial">
+        <header>
+            <div class="menu-pages">
+                <nav>
+                    <ul>
+                        <a class="link-menu" href="#home">Início</a>
+                        <a class="link-menu" href="#sobre">Sobre-mim</a>
+                        <a class="link-menu" href="#galeria">Galeria</a>
+                        <a class="link-menu" href="#contato">Contato</a>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <div>
+            <h1>Studio Thays Costa</h1>
+            <button onclick="openModal()" class="button-principal">Agendar Horário</button>
+        </div>
+        <img src="./img/thays-foto-ptincipal.jpg" class="foto-princial">
+
+    </section>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Agendamento de Horário</h2>
+
+            <form id="appointmentForm">
+                <label for="fullName">Nome Completo:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phoneNumber">Telefone:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+                <label for="appointmentDate">Data do Agendamento:</label>
+                <input type="date" id="appointmentDate" name="appointmentDate" required>
+
+                <label for="appointmentTime">Horário do Agendamento:</label>
+                <input type="time" id="appointmentTime" name="appointmentTime" required>
+
+                <button type="button" onclick="submitForm()" class="button-agendar">Agendar</button>
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+    <section class="pagina-2" id="sobre">
+
+        <img src="./img/cilios-fio-a-fio-02.jpg">
+        <div>
+            <h2>Sobre mim</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem dolorem, pariatur reprehenderit
+                consectetur accusantium voluptate vero error beatae, vitae, maiores laborum iusto delectus.
+                Voluptas, dolor commodi. Nobis nihil fugiat commodi?</p>
+        </div>
+
+    </section>
+
+    <section class="galeria" id="galeria">
+        <div>
+            <h2 class="titulo-galeria">Galeria</h2>
+
+            <div>
+                <img src="./img/modelo1.jpg">
+                <img src="./img/modelo2.jpg">
+                <img src="./img/modelo3.jpg">
+                <img src="./img/modelo4.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer id="contato">
+        <h5>Studio Thays Costa</h5>
+        <p>Tem alguma dúvida? Fale comigo!</p>
+        <div class="social">
+            <a href="https://wa.me/+5511946118471" target="_blank"><img src="./img/whats.png" class="contato-1"></a>
+            <a href="https://www.linkedin.com/in/thays-silva-costa-7b2234276/" target="_blank"><img src="./img/in.png"
+                    class="contato-2"></a>
+        </div>
+    </footer>
+
+
+</body>
+
+<script src="script.js"></script>
+
+
+</html>
